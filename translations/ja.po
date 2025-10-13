@@ -85,7 +85,8 @@ msgstr "更新エラー"
 
 #: src/ui.cpp:801
 msgid "An error occurred in retrieving update information; are you connected to the internet? Please try again later."
-msgstr "更新情報の取得中にエラーが発生しました。インターネットに接続しているか確認し、後ほどもう一度お試しください。"
+msgstr "更新情報の取得中にエラーが発生しました。\n"
+"インターネットに接続済みか確認し、あとでやり直してください。"
 
 #: src/ui.cpp:804
 msgid "The update is improperly signed."
@@ -126,7 +127,8 @@ msgstr "更新を自動的にチェックしますか ?"
 #: src/ui.cpp:1115
 #, c-format
 msgid "Should %s automatically check for updates? You can always check for updates manually from the menu."
-msgstr "%s が自動的に更新を確認するようにしますか ? いつでもメニューから手動で更新を確認することもできます。"
+msgstr "%s が自動で更新を確認するようにしますか？\n"
+"いつでもメニューから手動で更新を確認することもできます。"
 
 #: src/ui.cpp:1129
 msgid "Check automatically"

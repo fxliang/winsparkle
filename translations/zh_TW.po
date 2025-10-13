@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: winsparkle\n"
 "POT-Creation-Date: 2019-10-06 14:19+0200\n"
-"PO-Revision-Date: 2024-12-02 18:00\n"
+"PO-Revision-Date: 2025-10-13 16:30\n"
 "Last-Translator: Václav Slavík <vaclav@slavik.io>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -85,7 +85,8 @@ msgstr "更新發生錯誤！"
 
 #: src/ui.cpp:801
 msgid "An error occurred in retrieving update information; are you connected to the internet? Please try again later."
-msgstr "擷取更新資訊時遭遇錯誤，您是否已連結到網際網路？請稍後重試。"
+msgstr "擷取更新資訊時遭遇錯誤，您是否已連結到網際網路？\n"
+"請稍後重試。"
 
 #: src/ui.cpp:804
 msgid "The update is improperly signed."
@@ -126,7 +127,8 @@ msgstr "是否要自動檢查更新？"
 #: src/ui.cpp:1115
 #, c-format
 msgid "Should %s automatically check for updates? You can always check for updates manually from the menu."
-msgstr "%s 是否應自動檢查更新？您可以自行從選單手動選擇更新。"
+msgstr "%s 是否應自動檢查更新？\n"
+"您可以自行從選單手動選擇更新。"
 
 #: src/ui.cpp:1129
 msgid "Check automatically"
