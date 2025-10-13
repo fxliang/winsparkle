@@ -739,6 +739,13 @@ void UpdateDialog::SetMessage(const wxString& text, int width)
 {
     m_message->SetLabel(text);
     m_message->Wrap(PX(width));
+
+    // Wrapping at requested width may fail, e.g. for languages that don't use
+    // spaces (Chinese, Japanese etc.). In that case, we want the window to grow
+    // wider than 'width' and avoid truncating text:
+    m_message->InvalidateBestSize();
+    m_message->SetMinSize(wxDefaultSize);
+    m_message->SetMinSize(m_message->GetBestSize());
 }
 
 
