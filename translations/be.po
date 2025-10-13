@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: winsparkle\n"
 "POT-Creation-Date: 2019-10-06 14:19+0200\n"
-"PO-Revision-Date: 2024-12-02 18:00\n"
+"PO-Revision-Date: 2025-10-13 16:30\n"
 "Last-Translator: Václav Slavík <vaclav@slavik.io>\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -27,7 +27,7 @@ msgstr "Абнаўленне праграмы"
 
 #: src/ui.cpp:513
 msgid "Release notes:"
-msgstr "Журнал змен:"
+msgstr "Нататкі да выпуску:"
 
 #: src/ui.cpp:539
 msgid "Skip this version"
@@ -44,19 +44,19 @@ msgstr "Усталяваць абнаўленне"
 #: src/ui.cpp:667
 #, c-format
 msgid "%s cannot be restarted."
-msgstr "%s не можа быць перазапушчана."
+msgstr "Немагчыма перазапусціць %s."
 
 #: src/ui.cpp:670
 msgid "Make sure that you don't have any unsaved documents and try again."
-msgstr "Пераканайцеся, што ўсе дакументы захаваныя і паспрабуйце зноў."
+msgstr "Пераканайцеся, што ўсе дакументы захаваны і паспрабуйце яшчэ раз."
 
 #: src/ui.cpp:677
 msgid "Launching the installer..."
-msgstr "Запуск інсталятара..."
+msgstr "Запуск усталёўшчыка..."
 
 #: src/ui.cpp:683
 msgid "Failed to launch the installer."
-msgstr "Памылка запуску інсталятара."
+msgstr "Не ўдалося запусціць усталёўшчык."
 
 #: src/ui.cpp:726
 msgid "Checking for updates..."
@@ -64,7 +64,7 @@ msgstr "Праверка абнаўленняў..."
 
 #: src/ui.cpp:728 src/ui.cpp:809 src/ui.cpp:897
 msgid "Cancel"
-msgstr "Адмена"
+msgstr "Скасаваць"
 
 #: src/ui.cpp:754
 msgid "You're up to date!"
@@ -85,29 +85,29 @@ msgstr "Памылка абнаўлення!"
 
 #: src/ui.cpp:801
 msgid "An error occurred in retrieving update information; are you connected to the internet? Please try again later."
-msgstr "Адбылася памылка падчас пошуку абнаўленняў. Праверце ці падключаныя вы да інтэрнэта і паспрабуйце зноў."
+msgstr "Адбылася памылка падчас пошуку абнаўленняў. Праверце ці падключаныя вы да інтэрнэту і паспрабуйце яшчэ раз."
 
 #: src/ui.cpp:804
 msgid "The update is improperly signed."
-msgstr "Абнаўленні няправільна падпісаныя."
+msgstr "Абнаўленні няправільна падпісаны."
 
 #: src/ui.cpp:855
 #, c-format
 msgid "A new version of %s is available!"
-msgstr "Даступная новая версія %s!"
+msgstr "Даступна новая версія %s!"
 
 #: src/ui.cpp:858
 msgid "Get update"
-msgstr "Атрымаць абнаўленні"
+msgstr "Атрымаць абнаўленне"
 
 #: src/ui.cpp:864
 #, c-format
 msgid "%s %s is now available (you have %s). Would you like to download it now?"
-msgstr "%s %s даступны для загрузкі (у вас %s). Загрузіць абнаўленне зараз?"
+msgstr "%s %s даступна для спампоўвання (у вас усталявана версія %s). Спампаваць абнаўленне?"
 
 #: src/ui.cpp:895
 msgid "Downloading update..."
-msgstr "Загрузка абнаўленняў..."
+msgstr "Спампоўванне абнаўлення..."
 
 #. TRANSLATORS: This is the progress of a download, e.g. "3 MB of 12 MB".
 #: src/ui.cpp:923
@@ -126,7 +126,7 @@ msgstr "Правяраць наяўнасць абнаўленняў аўтам�
 #: src/ui.cpp:1115
 #, c-format
 msgid "Should %s automatically check for updates? You can always check for updates manually from the menu."
-msgstr "Ці жадаеце вы каб, %s правярала наяўнасць абнаўленняў аўтаматычна? У вас заўсёды ёсць магчымасць праверыць абнаўленні ўручную з меню."
+msgstr "Ці хочаце вы, каб %s правяраў наяўнасць абнаўленняў аўтаматычна? У вас заўсёды будзе магчымасць праверыць абнаўленні ўручную з меню."
 
 #: src/ui.cpp:1129
 msgid "Check automatically"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: winsparkle\n"
 "POT-Creation-Date: 2019-10-06 14:19+0200\n"
-"PO-Revision-Date: 2025-03-27 09:02\n"
+"PO-Revision-Date: 2025-10-13 16:30\n"
 "Last-Translator: Václav Slavík <vaclav@slavik.io>\n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
@@ -39,7 +39,7 @@ msgstr "Påmind mig senere"
 
 #: src/ui.cpp:550 src/ui.cpp:563
 msgid "Install update"
-msgstr "Installér opdateringer"
+msgstr "Installér opdatering"
 
 #: src/ui.cpp:667
 #, c-format
