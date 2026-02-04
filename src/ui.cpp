@@ -1033,6 +1033,7 @@ void UpdateDialog::ShowReleaseNotes(const Appcast& info)
         sizer->Add(m_webBrowser, wxSizerFlags(1).Expand());
         m_browserParent->SetSizer(sizer);
 
+		/*
         // Open all links in the default browser:
 		m_webBrowser->Bind(wxEVT_WEBVIEW_NAVIGATING, [info](wxWebViewEvent& evt)
 			{
@@ -1043,6 +1044,7 @@ void UpdateDialog::ShowReleaseNotes(const Appcast& info)
                     evt.Veto();
                 }
 			});
+		*/
     }
 
     if( !info.ReleaseNotesURL.empty() )
